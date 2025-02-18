@@ -2,11 +2,11 @@ class NumberPattern
 {
 public static void main(String[] args)
 {
-int rows = 5;
-for (int i = 0; i < rows; i++)
+int r = 5;
+for (int i = 0; i < r; i++)
 {
 int n = 1;
-for (int j = 0; j < rows - i; j++)
+for (int j = 0; j < r - i; j++)
 {
 System.out.print(" ");
 }
